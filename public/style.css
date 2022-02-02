@@ -1,10 +1,9 @@
 * {
-  font-family: arial, sans-serif;
+  font-family: arial,sans-serif;
   margin: 0;
 }
 
-body,
-body > div {
+body, body > div {
   height: 100vh;
   width: 100vw;
 }
@@ -19,6 +18,11 @@ body > div {
   display: flex;
 }
 
+#navbar {
+  padding: 2em;
+  justify-content: space-evenly;
+}
+
 #main-section {
   flex-grow: 1;
 }
@@ -30,12 +34,12 @@ body > div {
   justify-content: center;
 }
 
-a {
-  margin: 10px;
+.red {
+  background-color: #B05F6D;
+  color: white;
 }
 
-#navBar {
-  display: flex;
-  flex-direction: row;
-  background-color: lightcoral;
+.blue {
+  background-color: #275DB3;
+  color: white;
 }
